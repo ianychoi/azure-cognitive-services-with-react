@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Azure Cognitive Services with React
+
+Using Face API as an example
+
+How to use
+
+- (Fork the repo into your repository)
+- Create Azure Cognitive Services on your Azure
+- Deploy into Azure App Services on your Azure by setting the source as this GitHub repository
+- On Applications Settings of Azure App Services, specify APIKEY and AZUREENDPOINT (e.g., `https://koreacentral.api.cognitive.microsoft.com`)
+
+Reference
+
+- https://dev.to/davidlecodes/face-recognition-app-with-azure-3ib9
+- https://dev.to/azure/tutorial-use-azure-cognitive-services-to-build-a-translator-app-hosted-on-azure-app-service-4pp1
+- https://medium.com/@originaleye/build-an-express-react-node-web-app-from-scratch-86462dd9f125
+
+(This project was originally bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
 
 ## Available Scripts
 

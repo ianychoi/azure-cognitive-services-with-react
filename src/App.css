@@ -2,15 +2,22 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Microsoft-logo {
+  height: 10vmin;
+}
+
+.Heart-symbol {
+  height: 5vmin;
+}
+
+.React-logo {
+  height: 20vmin;
 }
 
 .App-header {
@@ -25,14 +32,27 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #09d3ac;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.containerFile {
+  display: flex;
+}
+
+.inputFile {
+  border: 1px;
+  padding: 1em 2em;
+  border-radius: 5px;
+}
+
+.buttonFile {
+  margin-left: 2em;
+  background-color: #09d3ac;
+  color: white;
+  border-color: #09d3ac;
+  border-radius: 5px;
+}
+
+.titleAtribute {
+  margin-bottom: 0 !important;
 }
