@@ -1,6 +1,6 @@
 # Azure Cognitive Services with React
 
-Using Face API as an example
+Using Face API as an example - hello!
 
 How to use
 
