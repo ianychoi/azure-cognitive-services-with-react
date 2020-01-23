@@ -1,15 +1,24 @@
 # Azure Cognitive Services with React
 
-Using Face API as an example - hello, world!
+## Using Face API as an example
 
-How to use
+#### Recommended prerequisites
 
-- (Fork the repo into your repository)
+- [GitHub account](https://github.com/)
+- [Azure Subscription](https://azure.microsoft.com/)
+- Chronium-based web browsers (e.g., [Microsoft Edge](https://www.microsoft.com/en-us/edge), [Google Chrome](https://www.google.com/chrome), ...) are recommended.
+- (optional) for local testing environment
+  - [Node.js 12 LTS](https://nodejs.org/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+
+#### How to use
+
+- (Fork the repo into your repository - leaving your Star here would be highly appreciated!)
 - Create Azure Cognitive Services on your Azure
 - Deploy into Azure App Services on your Azure by setting the source as this GitHub repository
 - On Applications Settings of Azure App Services, specify APIKEY and AZUREENDPOINT (e.g., `https://koreacentral.api.cognitive.microsoft.com`)
 
-Reference
+#### Reference
 
 - https://dev.to/davidlecodes/face-recognition-app-with-azure-3ib9
 - https://dev.to/azure/tutorial-use-azure-cognitive-services-to-build-a-translator-app-hosted-on-azure-app-service-4pp1
