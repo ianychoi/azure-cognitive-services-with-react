@@ -8,7 +8,7 @@
 - [Azure Subscription](https://azure.microsoft.com/)
 - Chronium-based web browsers (e.g., [Microsoft Edge](https://www.microsoft.com/en-us/edge), [Google Chrome](https://www.google.com/chrome), ...) are recommended.
 - (optional) for local testing environment
-  - [Node.js 12 LTS](https://nodejs.org/)
+  - [Node.js 12 LTS](https://nodejs.org/) or newer
   - [Visual Studio Code](https://code.visualstudio.com/)
 
 #### How to use
@@ -17,12 +17,17 @@
 - Create Azure Cognitive Services on your Azure
 - Deploy into Azure App Services on your Azure by setting the source as this GitHub repository
 - On Applications Settings of Azure App Services, specify APIKEY and AZUREENDPOINT (e.g., `https://koreacentral.api.cognitive.microsoft.com`)
+  - If you test in your local environment, you can execute like: `APIKEY=[YOUR_APIKEY] AZUREENDPOINT=[YOUR_AZUREENDPOINT] npm start`
 
 #### Reference
 
 - https://dev.to/davidlecodes/face-recognition-app-with-azure-3ib9
 - https://dev.to/azure/tutorial-use-azure-cognitive-services-to-build-a-translator-app-hosted-on-azure-app-service-4pp1
 - https://medium.com/@originaleye/build-an-express-react-node-web-app-from-scratch-86462dd9f125
+
+#### Related resources
+
+- [Azure Static Web App with React & Computer Vision SDK](https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/static-web-app/add-computer-vision-react-app)
 
 (This project was originally bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
 
