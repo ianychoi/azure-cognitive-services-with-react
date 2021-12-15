@@ -1,6 +1,6 @@
 const proxy = require('http-proxy-middleware');
 
-const apiUrl = 'http://localhost:5000';
+const apiUrl = 'http://localhost:51357';
 
 module.exports = (app) => {
     app.use(
